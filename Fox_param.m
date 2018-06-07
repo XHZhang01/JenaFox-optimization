@@ -4,7 +4,7 @@
 
 %% Solver parameters
 
-maxStep=1e-1;
+maxStep=1e-2;
 relTol=1e-2;
 absTol=1e-3;
 MaxOrd=5;
@@ -28,7 +28,7 @@ spring_ankle_rl_r=0.11; %[m]
 damper_ankle_r=10;    %[Ns/m]
 
 %initial conditions
-IC_phi_hip_r = -35;        %[deg]
+IC_phi_hip_r = -29;        %[deg]
 IC_phi_hip_l = 10;        %[deg]
 IC_phi_knee_r = 0;     %[deg]
 IC_phi_knee_l = 0;   %[deg]
