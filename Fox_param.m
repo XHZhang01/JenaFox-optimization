@@ -9,6 +9,9 @@ relTol=1e-2;
 absTol=1e-3;
 MaxOrd=5;
 
+errorswitch = true;    %false - no errors captured, true - errors will terminate simulation
+stop5m = true;         %simulation will terminate when 5m are reached if true 
+
 %% load model parameters
 simulink_robot_DataFile
 
