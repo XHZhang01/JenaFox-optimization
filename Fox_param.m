@@ -17,7 +17,7 @@ simulink_robot_DataFile
 
 %% set environment
 
-g = 9.80665;
+g = 9.81;
 
 %% Compliance
 % left
