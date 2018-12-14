@@ -31,10 +31,10 @@ spring_ankle_rl_r=0.11; %[m]
 damper_ankle_r=10;    %[Ns/m]
 
 %initial conditions
-IC_phi_hip_r = -29;        %[deg]
-IC_phi_hip_l = 10;        %[deg]
-IC_phi_knee_r = 0;     %[deg]
-IC_phi_knee_l = 0;   %[deg]
+IC_phi_hip_r = -29;     %[deg]
+IC_phi_hip_l = 10;      %[deg]
+IC_phi_knee_r = 0;      %[deg]
+IC_phi_knee_l = 0;      %[deg]
 
 IC_y = 0.288; %0.292 [m]
 IC_vCOM_x=0.6;
