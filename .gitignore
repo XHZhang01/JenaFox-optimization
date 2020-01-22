@@ -1,2 +1,5 @@
 slprj/
 *.slxc
+particle_init.m
+particle_v_update.m
+PSO.m
