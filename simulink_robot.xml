@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="Work" on="03/02/18||15:59:24" using="Simscape Multibody Link Version 5.1" from="Autodesk Inventor 2017 (Build 210142000, 142)"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="centimeter"/>
+<RootAssembly name="simulink_robot" uid="simulink_robot_{E2A7444B-4F07-5DD6-B1C9-C8AA5D0E8A58}" version="{EF35EEC8-8340-735A-7172-646EA8B15FA9}">
+<AssemblyFile name="simulink_robot.iam" type="Inventor Assembly"/>
+<InstanceTree>
+<Instance name="trunk:1" uid="trunk:1" entityUid="trunk_{92333838-45E3-D2E5-8B32-E1B960F81070}">
+<Transform>
+<Rotation>0 0 -1 -8.3125357304581789e-16 1 0 1 8.3125357304581789e-16 0</Rotation>
+<Translation>1.1000000000000043 -71.98697141184897 -2.8000000000000025</Translation>
+</Transform>
+</Instance>
+<Instance name="thigh_left:1" uid="thigh_left:1" entityUid="thigh_left_{F24F7E4B-46D1-7DEA-1356-7E9C520BA561}">
+<Transform>
+<Rotation>-0.99996165311039309 0 0.008757414500928604 0.008757414500928604 -1.1799432183249292e-15 0.99996165311039309 0 1.0000000000000056 1.1802699076809704e-15</Rotation>
+<Translation>-0.15875066133009752 -72.243523175296573 1.1400000000000041</Translation>
+</Transform>
+</Instance>
+<Instance name="thigh_left:2" uid="thigh_left:2" entityUid="thigh_left_{F24F7E4B-46D1-7DEA-1356-7E9C520BA561}">
+<Transform>
+<Rotation>0.8324713825431006 0 -0.55406804387797182 0.55406804387797182 7.4971861507693675e-16 0.8324713825431006 4.8863044874203007e-16 -0.99999999999999167 5.7537605280794055e-16</Rotation>
+<Translation>-0.83122780162107723 -72.441436386761751 -1.1400000000000099</Translation>
+</Transform>
+</Instance>
+<Instance name="shank_top:1" uid="shank_top:1" entityUid="shank_top_{B072BFA7-439F-5E28-6AD6-BE8952C0F3CA}">
+<Transform>
+<Rotation>-0.50972795542499216 -7.5479270064589019e-05 -0.86033563552903281 3.8473894112113797e-05 -0.99999999715144372 6.4937505967915181e-05 -0.86033563797975054 5.2014955850002672e-15 0.50972795687698291</Rotation>
+<Translation>-7.9130531805280118 -111.49596727143731 4.5354655289378236</Translation>
+</Transform>
+</Instance>
+<Instance name="shank_top:2" uid="shank_top:2" entityUid="shank_top_{B072BFA7-439F-5E28-6AD6-BE8952C0F3CA}">
+<Transform>
+<Rotation>0.2283128473595569 -0.89407806180602833 0.38535394526038935 -0.45573658373292136 -0.44791117355696258 -0.76920721970758332 0.86033563797974622 -6.4468582552398282e-15 -0.50972795687698202</Rotation>
+<Translation>-17.420286452218139 -99.994401713790126 -4.8854655289378632</Translation>
+</Transform>
+</Instance>
+<Instance name="shank_bottom:1" uid="shank_bottom:1" entityUid="shank_bottom_{0204FC20-4A0A-6429-25BA-4CBD87BD7669}">
+<Transform>
+<Rotation>0.44268317152105491 -0.89407806180603211 -0.068235101298595516 -0.88364241696543089 -0.44791117355695564 0.1362044769540369 -0.1523406990648013 -7.523152264148567e-15 -0.98832803835996086</Rotation>
+<Translation>-21.110941881479327 -93.967014561224858 -9.7114946197929015</Translation>
+</Transform>
+</Instance>
+<Instance name="shank_bottom:2" grounded="true" uid="shank_bottom:2" entityUid="shank_bottom_{0204FC20-4A0A-6429-25BA-4CBD87BD7669}">
+<Transform>
+<Rotation>0.99999364061534157 -7.5479270062468103e-05 0.0035655338668257874 -7.547879027578814e-05 -0.99999999715144017 -2.691238873913841e-07 0.0035655338769823844 -6.9985499865607582e-15 -0.99999364346388353</Rotation>
+<Translation>0.41341318833375285 -112.09659574875128 -5.7811352876122184</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Flush:2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>trunk:1</Uid>
+</InstancePath>
+<Position>2.8000000000000012 -0.21000000000000796 5.8600000000000225</Position>
+<Axis>1 7.7002123308845031e-16 -5.5511151231257472e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Flush:1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>trunk:1</Uid>
+</InstancePath>
+<Position>-1.4500000000000006 3.9000000000000057 1.1000000000000003</Position>
+<Axis>0 1.5813196317015071e-16 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="spring joiint right">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>shank_top:1</Uid>
+</InstancePath>
+<Position>-1.2090856987365928 -20.897582104449199 -7.5253155058511361</Position>
+<Axis>-2.2859003497467144e-15 -0.99999999999999623 6.7295383061212179e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>shank_bottom:2</Uid>
+</InstancePath>
+<Position>-0.75908569873659348 -21.697582104449424 -7.5253155058511503</Position>
+<Axis>-2.5906788553914599e-15 -0.99999999999999978 6.9109018119788032e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Mate:1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>shank_top:1</Uid>
+</InstancePath>
+<Position>-1.2090856987366061 -26.397582104449171 -7.5253155058510988</Position>
+<Axis>2.2859003497467144e-15 0.99999999999999623 -6.7295383061212179e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>shank_bottom:2</Uid>
+</InstancePath>
+<Position>-1.2090856987365934 -21.597582104449415 -7.5253155058511565</Position>
+<Axis>2.6282073745301598e-15 0.99999999999999978 -6.7059544366436604e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="spring joint left">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>shank_top:2</Uid>
+</InstancePath>
+<Position>-1.2090856987365868 -20.89758210444927 -7.5253155058511538</Position>
+<Axis>-2.3334085148676509e-15 -1.0000000000000002 6.6913750311944407e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>shank_bottom:1</Uid>
+</InstancePath>
+<Position>-0.75908569873658394 -21.697582104449417 -7.5253155058511476</Position>
+<Axis>-2.4976375594710906e-15 -0.99999999999999978 6.9086247833692215e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Mate:2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>shank_top:2</Uid>
+</InstancePath>
+<Position>-1.209085698736601 -26.39758210444927 -7.5253155058511254</Position>
+<Axis>2.3334085148676509e-15 1.0000000000000002 -6.6913750311944407e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>shank_bottom:1</Uid>
+</InstancePath>
+<Position>-1.2090856987365868 -21.597582104449415 -7.5253155058511529</Position>
+<Axis>2.5293660479813214e-15 0.99999999999999978 -6.7027825166476788e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+<Joints>
+<Revolute name="hip right">
+<BaseFrame>
+<InstancePath>
+<Uid>trunk:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>0 -1.315036842927926e-16 -1 0 -1 1.315036842927926e-16 -1 0 0</Rotation>
+<Translation>4.3400000000000105 0.17500000000000271 2.0050000000000003</Translation>
+</Transform>
+</BaseFrame>
+<FollowerFrame>
+<InstancePath>
+<Uid>thigh_left:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>1 -3.0531133177191968e-16 0 0 -1.6414587729672989e-16 -1 3.0531133177191968e-16 1 -1.6414587729672986e-16</Rotation>
+<Translation>0.74999999999999867 0.40000000000000041 0.42500000000000027</Translation>
+</Transform>
+</FollowerFrame>
+</Revolute>
+<Revolute name="hip left">
+<BaseFrame>
+<InstancePath>
+<Uid>trunk:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>0 0 -1 2.8555960031153884e-15 -1 0 -1 -2.8555960031153884e-15 0</Rotation>
+<Translation>1.2599999999999962 1.0100000000000076 2.0050000000000021</Translation>
+</Transform>
+</BaseFrame>
+<FollowerFrame>
+<InstancePath>
+<Uid>thigh_left:2</Uid>
+</InstancePath>
+<Transform>
+<Rotation>-1 -3.8857805861880178e-16 0 0 -1.6414587729673006e-16 1 -3.8857805861880178e-16 1 1.6414587729673006e-16</Rotation>
+<Translation>0.74999999999999867 0.40000000000000041 1.2600000000000002</Translation>
+</Transform>
+</FollowerFrame>
+</Revolute>
+<Revolute name="knee right">
+<BaseFrame>
+<InstancePath>
+<Uid>thigh_left:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>0.99996232352764425 -0.0086805256289664411 3.973059387408877e-16 -3.9656201180392e-16 0 1 -0.0086805256289664411 -0.99996232352764425 0</Rotation>
+<Translation>0.57167579176343108 -0.10017865271976412 -10.26079713927215</Translation>
+</Transform>
+</BaseFrame>
+<FollowerFrame>
+<InstancePath>
+<Uid>shank_top:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>-3.1008266715447835e-15 0.50972795687698158 -0.86033563797974699 -1 4.6433020751624296e-15 6.3552494051265729e-15 7.234246547886372e-15 0.86033563797974699 0.50972795687698158</Rotation>
+<Translation>-0.60685075215079043 -28.997582104449286 -7.8821250756650185</Translation>
+</Transform>
+</FollowerFrame>
+</Revolute>
+<Revolute name="knee left">
+<BaseFrame>
+<InstancePath>
+<Uid>thigh_left:2</Uid>
+</InstancePath>
+<Transform>
+<Rotation>-0.79476154344473549 0.60692181461975969 3.9730593874088755e-16 2.6479647281896918e-16 -3.0787472258124069e-16 1 0.60692181461975969 0.79476154344473549 0</Rotation>
+<Translation>0.57167579176343108 -0.10017865271976412 -10.26079713927215</Translation>
+</Transform>
+</BaseFrame>
+<FollowerFrame>
+<InstancePath>
+<Uid>shank_top:2</Uid>
+</InstancePath>
+<Transform>
+<Rotation>-0.50972795687698158 -2.7458414290721515e-15 -0.86033563797974688 -4.2188474935755988e-15 -1 5.6911578762976694e-15 -0.86033563797974688 6.5305671264741709e-15 0.50972795687698158</Rotation>
+<Translation>-0.30573327885787283 -28.997582104449283 -8.0605298605719611</Translation>
+</Transform>
+</FollowerFrame>
+</Revolute>
+</Joints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="shank_bottom" uid="shank_bottom_{0204FC20-4A0A-6429-25BA-4CBD87BD7669}" version="{02BC2CE1-4C08-B8F5-D453-2F9F5C869453}">
+<PartFile name="shank_bottom.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0210114827243802</Mass>
+<CenterOfMass>-1.2090978274169613 -17.297354614572605 -7.5253113025390874</CenterOfMass>
+<Inertia>0.12282172390531923 0.0066855946311768551 0.12282153205184931 -2.9265367402331321e-07 -1.2604318639262148e-06 8.3142673889824435e-07</Inertia>
+</MassProperties>
+<GeometryFile name="shank_bottom_ipt_92530788.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.99607843137254903" g="0.99607843137254903" b="1" a="1"/>
+<Diffuse r="0.99607843137254903" g="0.99607843137254903" b="1" a="1"/>
+<Specular r="0.99607843137254903" g="0.99607843137254903" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.59200000762939453</Shininess>
+</VisualProperties>
+</Part>
+<Part name="shank_top" uid="shank_top_{B072BFA7-439F-5E28-6AD6-BE8952C0F3CA}" version="{2F4A0903-234C-86A1-AD32-0E2C21E83B4F}">
+<PartFile name="shank_top.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.016892378008365638</Mass>
+<CenterOfMass>-1.5050308797965886 -26.071816283884242 -7.3499751784006726</CenterOfMass>
+<Inertia>0.11049730560419811 0.036174064216020041 0.12461136863351931 0.0042571594192295382 0.012885351363493157 -0.007185373914973525</Inertia>
+</MassProperties>
+<GeometryFile name="shank_top_ipt_5be12039.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.99607843137254903" g="0.99607843137254903" b="1" a="1"/>
+<Diffuse r="0.99607843137254903" g="0.99607843137254903" b="1" a="1"/>
+<Specular r="0.99607843137254903" g="0.99607843137254903" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.59200000762939453</Shininess>
+</VisualProperties>
+</Part>
+<Part name="thigh_left" uid="thigh_left_{F24F7E4B-46D1-7DEA-1356-7E9C520BA561}" version="{CC2FC35F-48B7-0BC8-50A1-5C0779ADD58A}">
+<PartFile name="thigh_left.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.078010372960922336</Mass>
+<CenterOfMass>0.73046855872749239 2.0434497756314931 -6.4579268377087793</CenterOfMass>
+<Inertia>1.3630872793203817 1.2028855797692231 0.21273034143348246 -0.048493966145421383 -0.0059029746067315045 -0.0013166970688448317</Inertia>
+</MassProperties>
+<GeometryFile name="thigh_left_ipt_d01cdd9b.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.99607843137254903" g="0.99607843137254903" b="1" a="1"/>
+<Diffuse r="0.99607843137254903" g="0.99607843137254903" b="1" a="1"/>
+<Specular r="0.99607843137254903" g="0.99607843137254903" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.59200000762939453</Shininess>
+</VisualProperties>
+</Part>
+<Part name="trunk" uid="trunk_{92333838-45E3-D2E5-8B32-E1B960F81070}" version="{8D388313-0F5A-0B27-5793-8241FD34046C}">
+<PartFile name="trunk.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.28854663359002958</Mass>
+<CenterOfMass>2.7999981902476461 1.5823006594884184 2.9339328936355842</CenterOfMass>
+<Inertia>1.3223046871533912 5.0451965300955228 4.7314044194516729 0.04394260865574029 -1.7162940671369141e-06 -8.9008495911002686e-07</Inertia>
+</MassProperties>
+<GeometryFile name="trunk_ipt_7785b5f2.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.99607843137254903" g="0.99607843137254903" b="1" a="1"/>
+<Diffuse r="0.99607843137254903" g="0.99607843137254903" b="1" a="1"/>
+<Specular r="0.99607843137254903" g="0.99607843137254903" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.59200000762939453</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
